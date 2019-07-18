@@ -11,7 +11,7 @@
 
 {%- if site.texture.showPicker -%}
 <div id="texture-picker">
-	<p>Select Texture</p>
+	<p>颜色</p>
 	<div class="texture-colors">
 		<div id="black"></div>
 		<div id="blue"></div>	
@@ -19,8 +19,6 @@
 		<div id="purple"></div>		
 		<div id="green"></div>
 	</div>
-	<p class="info">You can use the <b>showPicker</b> property in _config.yml to hide this picker permanently.</p>
-	<p class="info">You can use the <b>texture</b> property in _config.yml to apply a texture permanently.</p>
 </div>
 <script src="{{ "/assets/js/picker.js" | relative_url }}"></script>
 {%- endif -%}
